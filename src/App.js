@@ -12,14 +12,14 @@ import BucketList from './useState/List';
 function App() {
   return (
     <>
-    {/* <Counter />
+    <Counter />
     <MyInput />
     <MyCheckbox />
-    <Form /> */}
+    <Form />
     {/* <FormArray /> */}
     {/* <NestedObject /> */}
     {/* <ListArray /> */}
-    <BucketList />
+    {/* <BucketList /> */}
     </>
   );
 }
