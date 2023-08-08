@@ -5,6 +5,7 @@ import MyInput from './useState/TextField';
 import MyCheckbox from './useState/CheckBox';
 import Form from './useState/Form';
 import FormArray from './useState/FormArray';
+import NestedObject from './useState/NestedObject';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <MyInput />
     <MyCheckbox />
     <Form /> */}
-    <FormArray />
+    {/* <FormArray /> */}
+    <NestedObject />
     </>
   );
 }
