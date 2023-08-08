@@ -4,14 +4,16 @@ import Counter from './useState/ClickCounter';
 import MyInput from './useState/TextField';
 import MyCheckbox from './useState/CheckBox';
 import Form from './useState/Form';
+import FormArray from './useState/FormArray';
 
 function App() {
   return (
     <>
-    <Counter />
+    {/* <Counter />
     <MyInput />
     <MyCheckbox />
-    <Form />
+    <Form /> */}
+    <FormArray />
     </>
   );
 }
