@@ -7,6 +7,7 @@ import Form from './useState/Form';
 import FormArray from './useState/FormArray';
 import NestedObject from './useState/NestedObject';
 import ListArray from './useState/ListArray';
+import BucketList from './useState/List';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
     <Form /> */}
     {/* <FormArray /> */}
     {/* <NestedObject /> */}
-    <ListArray />
+    {/* <ListArray /> */}
+    <BucketList />
     </>
   );
 }
